@@ -5,7 +5,7 @@
   <subtitle><![CDATA[Programming and IT-business]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog.koorchik.com//"/>
-  <updated>2015-12-09T16:33:34.000Z</updated>
+  <updated>2015-12-09T16:36:40.000Z</updated>
   <id>http://blog.koorchik.com//</id>
   
   <author>
@@ -19,8 +19,8 @@
     <title><![CDATA[The Pain and the Joy of creating isomorphic apps in ReactJS]]></title>
     <link href="http://blog.koorchik.com/isomorphic-react/index.html"/>
     <id>http://blog.koorchik.com/isomorphic-react/index.html</id>
-    <published>2015-11-24T10:43:36.000Z</published>
-    <updated>2015-12-09T16:33:34.000Z</updated>
+    <published>2015-12-08T10:43:36.000Z</published>
+    <updated>2015-12-09T16:36:40.000Z</updated>
     <content type="html"><![CDATA[<h2 id="Preface">Preface</h2><p>Let’s start with the term “Isomorphic application”. An isomorphic application is just a regular single page application that can be run on server. I do not like the word “isomorphic”, I believe that programmers should struggle complexity (not only in code) and the word “isomorphic” сomlicates understanding, therefore it increases complexity :). There is another name for isomorphic JavaScript - “Universal JavaScript”, but in my opinion the word “Universal” is too general. So, in this post, I will use the word “isomorphic” ( even if do not like it :) ).</p>
 <p>How do people see an isomorphic app? You can find diagramms in the internet like this one:</p>
 <p><img src="isomorphic_separated.png" alt=""></p>
