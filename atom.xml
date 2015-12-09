@@ -5,7 +5,7 @@
   <subtitle><![CDATA[Programming and IT-business]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog.koorchik.com//"/>
-  <updated>2015-12-09T16:36:40.000Z</updated>
+  <updated>2015-12-09T16:40:12.000Z</updated>
   <id>http://blog.koorchik.com//</id>
   
   <author>
@@ -20,18 +20,18 @@
     <link href="http://blog.koorchik.com/isomorphic-react/index.html"/>
     <id>http://blog.koorchik.com/isomorphic-react/index.html</id>
     <published>2015-12-08T10:43:36.000Z</published>
-    <updated>2015-12-09T16:36:40.000Z</updated>
+    <updated>2015-12-09T16:40:12.000Z</updated>
     <content type="html"><![CDATA[<h2 id="Preface">Preface</h2><p>Let’s start with the term “Isomorphic application”. An isomorphic application is just a regular single page application that can be run on server. I do not like the word “isomorphic”, I believe that programmers should struggle complexity (not only in code) and the word “isomorphic” сomlicates understanding, therefore it increases complexity :). There is another name for isomorphic JavaScript - “Universal JavaScript”, but in my opinion the word “Universal” is too general. So, in this post, I will use the word “isomorphic” ( even if do not like it :) ).</p>
 <p>How do people see an isomorphic app? You can find diagramms in the internet like this one:</p>
 <p><img src="isomorphic_separated.png" alt=""></p>
 <p>But ideally it should look a little bit different:</p>
 <p><img src="isomorphic_joined.png" alt=""></p>
 <p>I mean, not less than 90% of your code should be reused. In large apps it can be even more than 95%.</p>
-<p>This article is not a tutorial. There are enough of them on the Internet. It is always more interesting to look at real production app. A lot of tutorials and boilerplates show how to write isomorphic ReactJS applications, but they do not cover a lot of real-life problems we’ve faced in production. So we decided to share our experience at github and develop the app in a public repo. Here is <a href="http://itsquiz.com" target="_blank" rel="external">the running app</a> and here is <a href="https://github.com/webbylab/itsquiz-wall" target="_blank" rel="external">its code</a>.</p>
+<p>This article is not a tutorial. There are enough of them on the Internet. It is always more interesting to look at real production app. A lot of tutorials and boilerplates show how to write isomorphic ReactJS applications, but they do not cover a lot of real-life problems we’ve faced in production. So we decided to share our experience at github and develop the app in a public repo. Here is <a href="http://itsquiz.com/en/activations" target="_blank" rel="external">the running app</a> and here is <a href="https://github.com/webbylab/itsquiz-wall" target="_blank" rel="external">its code</a>.</p>
 <p><strong>IMPORTANT</strong>: This is real-world application, so it is always evolving. Our goal is to make working product within a limited amount of time. Sometimes, we have no time for finding the best possible solution, but use just suitable variant in our case.</p>
 <p>If you want to develop isomorphic app from scratch, then start with reading this tutorial <a href="https://medium.com/@bananaoomarang/handcrafting-an-isomorphic-redux-application-with-love-40ada4468af4" target="_blank" rel="external">“Handcrafting an Isomorphic Redux Application (With Love)”</a>. It is really great!</p>
 <h2 id="About_the_app">About the app</h2><p>In <a href="http://webbylab.com" target="_blank" rel="external">WebbyLab</a> we use React from the moment it was open sourced by Facebook almost in every our project. We’ve created keynote clone, excel clone, a lot of hybrid mobile applications, UI for a social monitoring system, comment moderation system, ticket booking system, a lot of admin UIs and more. Sometimes we make isomorphic apps too. The fundamental difference between regular SPA and isomorphic SPA is that in isomorphic SPA you will process several requests simultaneously, therefore you should somehow deal with a global user-dependent state (like current language, flux stores state etc).</p>
-<p><a href="http://itsquiz.com" target="_blank" rel="external">itsquiz.com</a> is one of our projects written in ReactJS. itsquiz.com is a cloud testing platform with a lot of amazing features. And one of the key features of the product is a public quizzes catalogue (aka “quizwall”), any user can publish his own tests there and pass others’. For example, you can go there and <a href="http://itsquiz.com/ru/activations/5654d795ba95b74b5200900a" target="_blank" rel="external">test your knowledge of ReactJS</a>.</p>
+<p><a href="http://itsquiz.com/en/activations" target="_blank" rel="external">itsquiz.com</a> is one of our projects written in ReactJS. itsquiz.com is a cloud testing platform with a lot of amazing features. And one of the key features of the product is a public quizzes catalogue (aka “quizwall”), any user can publish his own tests there and pass others’. For example, you can go there and <a href="http://itsquiz.com/en/activations/5654d795ba95b74b5200900a" target="_blank" rel="external">test your knowledge of ReactJS</a>.</p>
 <p><em>You can watch 1 minute promo video to better understand the idea of the product:</em></p>
 <p><a href="http://www.youtube.com/watch?feature=player_embedded&v=eiougg2UhYA
 " target="_blank"><img src="http://img.youtube.com/vi/eiougg2UhYA/0.jpg" alt="IMAGE ALT TEXT HERE" width="480" height="320" border="10"></a></p>
